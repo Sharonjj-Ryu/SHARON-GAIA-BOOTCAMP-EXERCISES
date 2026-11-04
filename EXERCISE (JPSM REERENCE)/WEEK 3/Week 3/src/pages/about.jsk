@@ -1,0 +1,8 @@
+export default function AboutDummy() {
+  return (
+    <section>
+      <h1>About Dummy</h1>
+      <p>This is a simple dummy page.</p>
+    </section>
+  )
+}

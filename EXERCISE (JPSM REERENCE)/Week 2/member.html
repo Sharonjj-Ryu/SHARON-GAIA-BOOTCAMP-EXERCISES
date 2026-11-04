@@ -1,0 +1,83 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Exercise 1.3 - Team Information</title>
+</head>
+
+<body>
+
+  <h1>Coding Exercise 1.3</h1>
+
+  <p>
+    Open your browser console (F12 or Inspect → Console)
+    to see the team members' data.
+  </p>
+
+  <script>
+    // Member 1
+    const member1 = {
+      firstName: "Sharon",
+      lastName: "June",
+      hobbies: ["reading", "hiking", "photography"],
+      favouriteFood: ["pizza", "sushi", "chocolate"],
+      pets: ["dog", "cat"]
+    };
+
+    // Member 2
+    const member2 = {
+      firstName: "Dave",
+      lastName: "Darrell",
+      hobbies: ["gaming", "cycling"],
+      favouriteFood: ["ramen", "tacos"],
+      pets: ["cat"]
+    };
+
+    // Member 3
+    const member3 = {
+      firstName: "Ethan",
+      lastName: "Lim",
+      hobbies: ["gardening", "painting"],
+      favouriteFood: ["paella", "pasta"],
+      pets: ["dog", "bird"]
+    };
+
+    // Member 4
+    const member4 = {
+      firstName: "Hashim",
+      lastName: "Isham",
+      hobbies: ["swimming", "chess"],
+      favouriteFood: ["burgers", "steak"],
+      pets: []
+    };
+
+    // Member 5
+    const member5 = {
+      firstName: "Suzi",
+      lastName: "Liana",
+      hobbies: ["baking", "traveling"],
+      favouriteFood: ["pancakes", "donut"],
+      pets: ["rabbit"]
+    };
+
+    // Display Member 1 in the console
+    console.log(member2);
+
+    // Store all members in an array
+    const teamMembers = [
+      member1,
+      member2,
+      member3,
+      member4,
+      member5
+    ];
+
+    // Display the full team list
+    console.table(teamMembers);
+  </script>
+
+</body>
+</html>
+
