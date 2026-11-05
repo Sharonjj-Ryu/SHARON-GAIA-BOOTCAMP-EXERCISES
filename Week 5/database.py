@@ -22,7 +22,7 @@ else:
     database_url = URL.create(
         drivername="postgresql+psycopg2",
         username=os.getenv("DB_USER", "postgres"),
-        password="Sj2406@@",
+        password=db_password,
         host=os.getenv("DB_HOST", "localhost"),
         port=int(os.getenv("DB_PORT", "5432")),
         database=os.getenv("DB_NAME", "books_db"),
